@@ -1,0 +1,51 @@
+.container {
+	width: 600px;
+	background-color: #f2f2f2;
+	font-family: Calibri;
+	padding: 30px 30px;
+	position: sticky;
+	height: max-content;
+	top: 0px;
+}
+
+.name {
+	font-size: 32px;
+}
+
+.language {
+	color: white;
+	background: #2196f3;
+	width: max-content;
+	padding: 6px;
+	margin-top: 5px;
+	border-radius: 100px;
+}
+
+.info {
+	display: flex;
+	justify-content: space-between;
+	font-family: Calibri;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+.stars {
+	display: flex;
+	justify-content: center;
+}
+
+.topics {
+	margin-top: 16px;
+	display: flex;
+	justify-content: flex-start;
+	gap: 8px;
+	margin-bottom: 15px;
+	flex-wrap: wrap;
+}
+.topic {
+	background: #00000014;
+	width: max-content;
+	padding: 6px;
+	margin-top: 5px;
+	border-radius: 100px;
+}
