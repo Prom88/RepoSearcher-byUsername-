@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [react()],
-	base: '/RepoSearcher',
+	base: '/RepoSearcher-byUsername-',
 	build: {
 		outDir: 'build', // имя общей выходной директории
 	},

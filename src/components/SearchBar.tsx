@@ -25,7 +25,7 @@ function SearchBar() {
 				/>
 			</div>
 			<div className={styles.buttonBox}>
-				<Button variant='contained' onChange={() => dispatch(setQuery(name))}>
+				<Button variant='contained' onClick={() => dispatch(setQuery(name))}>
 					ИСКАТЬ
 				</Button>
 			</div>
