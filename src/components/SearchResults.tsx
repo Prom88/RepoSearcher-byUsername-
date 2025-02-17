@@ -65,7 +65,7 @@ function SearchResults() {
 			</div>
 		)
 	} else {
-		const rows = data.items
+		const rows = data
 		return (
 			<div className={styles.container}>
 				<h3>Результаты поиска</h3>

@@ -12,11 +12,7 @@ export type TRepo = {
 	updated_at: string
 }
 
-export type TRepos = {
-	total_count: number
-	incomplete_results: boolean
-	items: TRepo[]
-}
+export type TRepos = TRepo[]
 
 export type TRepoDetail = {
 	id: number

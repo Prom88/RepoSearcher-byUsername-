@@ -6,7 +6,7 @@ export const githubApi = createApi({
 	baseQuery: fetchBaseQuery({ baseUrl: 'https://api.github.com' }),
 	endpoints: (builder) => ({
 		searchRepositories: builder.query<TRepos, string>({
-			query: (searchTerm) => `/search/repositories?q=${searchTerm}`,
+			query: (searchTerm) => `/users/${searchTerm}/repos?sort=updated`,
 		}),
 	}),
 })

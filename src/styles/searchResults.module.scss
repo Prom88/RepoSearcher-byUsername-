@@ -1,4 +1,5 @@
 .container {
+	height: 100vh;
 	width: 960px;
 	background-color: #ffff;
 	font-family: Calibri;
@@ -9,10 +10,11 @@
 }
 
 .welcome {
+	display: flex;
 	font-family: Calibri;
 	color: #4f4f4f;
 	font-weight: 100;
 	font-size: 24px;
 	margin: auto;
-	margin-top: 300px;
+	display: flex;
 }
